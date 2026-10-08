@@ -355,124 +355,23 @@
     </div>
 
 
-    <!-- ========================= -->
-    <!-- CONTACT INFORMATION -->
-    <!-- ========================= -->
+  <section class="p-5 bg-blue-50"><h2 class="text-2xl font-black text-center text-gray-900">Interested? Apply or Contact Us</h2>
+<p class="text-center text-gray-600 text-sm mt-2 mb-4">Apply online or contact us for full program details and admission guidance.</p>
+<div class="grid grid-cols-2 gap-3">
+<a id="applyBtn" href="https://forms.google.com/" target="_blank" rel="noopener" class="col-span-2 bg-red-600 text-white text-center font-black py-4 rounded-xl shadow-lg pulse-btn">📝 Apply Now</a>
+<a id="whatsappBtn" href="https://wa.me/" target="_blank" rel="noopener" class="bg-green-600 text-white text-center font-bold py-3 rounded-xl">💬 WhatsApp</a>
+<a id="kakaoBtn" href="#" target="_blank" rel="noopener" class="bg-yellow-400 text-gray-900 text-center font-bold py-3 rounded-xl">💬 KakaoTalk</a>
+<a id="facebookBtn" href="#" target="_blank" rel="noopener" class="bg-blue-600 text-white text-center font-bold py-3 rounded-xl">📘 Facebook</a>
+<a id="instagramBtn" href="#" target="_blank" rel="noopener" class="bg-pink-600 text-white text-center font-bold py-3 rounded-xl">📷 Instagram</a>
+</div></section>
 
-    <div class="px-6 pb-6">
-
-        <div class="bg-blue-50 border border-blue-100 rounded-2xl p-5 text-center">
-
-            <h3 class="font-black text-lg text-blue-700 mb-2">
-                📞 궁금한 점이 있으신가요?
-            </h3>
-
-            <p class="text-sm text-gray-600">
-                지원 전 편하게 문의해주세요.
-            </p>
-
-            <p class="text-xs text-gray-500 mt-2">
-                카카오톡 · WhatsApp · Instagram 상담 가능
-            </p>
-
-        </div>
-
-    </div>
-
-
+<section class="px-5 pb-6"><div class="bg-gray-100 rounded-2xl p-4 text-xs text-gray-600 leading-relaxed">
+<strong>Important Information</strong><p class="mt-2">Admission, field training, academic credit, visa issuance, tuition, dormitory fees and company placement are subject to eligibility requirements, company selection/interview and approval by the relevant institution or authority. Salary and working conditions may vary by position. Please confirm the latest details before applying.</p></div>
+<p class="text-center text-xs text-gray-400 mt-4">Please replace the placeholder application and social-media links with your official contact links.</p></section>
 </div>
-
-
-<!-- ================================================= -->
-<!-- FIXED CONTACT / APPLICATION BAR -->
-<!-- ================================================= -->
-
-<div class="fixed bottom-0 left-0 right-0 max-w-[480px] mx-auto bg-white p-3 border-t shadow-[0_-10px_20px_rgba(0,0,0,0.08)] z-50">
-
-    <!-- MAIN APPLICATION BUTTON -->
-    <a
-        href="YOUR_GOOGLE_FORM_URL"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="pulse-btn block w-full bg-red-600 text-white text-center font-black text-xl py-4 rounded-xl shadow-lg hover:bg-red-700 transition"
-    >
-        📝 지금 바로 지원하기
-    </a>
-
-
-    <!-- SOCIAL / CONTACT BUTTONS -->
-
-    <div class="grid grid-cols-3 gap-2 mt-2">
-
-
-        <!-- KAKAOTALK -->
-
-        <a
-            href="YOUR_KAKAO_OPENCHAT_URL"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex flex-col items-center justify-center bg-yellow-400 text-gray-900 font-bold py-2.5 rounded-lg hover:bg-yellow-500 transition"
-        >
-
-            <span class="text-xl">
-                💬
-            </span>
-
-            <span class="text-xs mt-1">
-                카카오톡
-            </span>
-
-        </a>
-
-
-        <!-- WHATSAPP -->
-
-        <a
-            href="https://wa.me/YOUR_PHONE_NUMBER"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex flex-col items-center justify-center bg-green-500 text-white font-bold py-2.5 rounded-lg hover:bg-green-600 transition"
-        >
-
-            <span class="text-xl">
-                📱
-            </span>
-
-            <span class="text-xs mt-1">
-                WhatsApp
-            </span>
-
-        </a>
-
-
-        <!-- INSTAGRAM -->
-
-        <a
-            href="YOUR_INSTAGRAM_URL"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex flex-col items-center justify-center bg-pink-500 text-white font-bold py-2.5 rounded-lg hover:bg-pink-600 transition"
-        >
-
-            <span class="text-xl">
-                📷
-            </span>
-
-            <span class="text-xs mt-1">
-                Instagram
-            </span>
-
-        </a>
-
-    </div>
-
-
-    <!-- CONTACT MESSAGE -->
-
-    <p class="text-center text-xs text-gray-400 mt-2">
-        궁금한 사항은 카카오톡 · WhatsApp · Instagram으로 문의해주세요.
-    </p>
-
+<script>
+const links={apply:"https://forms.google.com/",whatsapp:"https://wa.me/",kakao:"#",facebook:"#",instagram:"#"};
+for (const [id,url] of Object.entries({applyBtn:links.apply,whatsappBtn:links.whatsapp,kakaoBtn:links.kakao,facebookBtn:links.facebook,instagramBtn:links.instagram})) document.getElementById(id).href=url;
 </div>
 
 
